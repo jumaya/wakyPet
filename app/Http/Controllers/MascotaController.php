@@ -56,7 +56,7 @@ class MascotaController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Campo para editar un registro de la mascota
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -69,7 +69,7 @@ class MascotaController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Se guarda un registro de la mascota al sistema
      * @param  App\Http\Requests\StoreClient - validate the input data
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -100,7 +100,7 @@ class MascotaController extends Controller
 
 
     /**
-     * Update the specified resource in storage.
+     * Actualiza el registro de la mascota con la informacion que obtiene de ajax
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -123,7 +123,7 @@ class MascotaController extends Controller
     }
 
     /**
-     * Delete a client with his travels.
+     * Elimina el registro de la mascota 
      *
      * @return \Illuminate\Http\Response
      */
