@@ -41,3 +41,20 @@ Route::post('/programacion/store','ProgramacionController@store')->name('storePr
 Route::post('/programacion/update','ProgramacionController@update')->name('updateProg');
 
 Route::post('/programacion/delete','ProgramacionController@destroy')->name('deleteProg');
+
+
+Route::get('/getClient', 'AppiController@getClient');
+
+Route::get('/getMascota', 'AppiController@getMascota');
+
+Route::get('/getRaza', 'AppiController@getRaza');
+
+Route::get('/getProgramacion', 'AppiController@getProgramacion');
+
+Route::post('/saveMascota','AppiController@saveMascota');
+
+Route::get('/getNameMascota','AppiController@getNameMascota');
+
+Route::get('/getPlan','AppiController@getPlan');
+
+Route::post('/saveProgPaseo','AppiController@saveProgPaseo');
