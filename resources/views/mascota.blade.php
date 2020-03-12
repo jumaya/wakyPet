@@ -122,12 +122,12 @@
                                                 <input id="nombre" type="text" required class="form-control" name="nombre" placeholder="Nombre" value="{{ old('nombre') }}">
                                             </div>
                                         </div>
-
+                                     
                                         <div class="form-group">
                                             <div class="col-lg-12">
                                                 <select id="raza" name="raza" class="selectpicker form-control classs" data-live-search="true">
                                                     @foreach($valor as $date)
-                                                    @if( $date->raza_id == isset($raza)) )
+                                                    @if( $date->raza_id ==  Session::get('test')) )
                                                     <option value="{{$date->raza_id}}"> {{$date->nombre}} </option>
                                                     @endif
                                                     @endforeach
@@ -137,15 +137,7 @@
                                                 </select>
                                             </div>
                                         </div>
-
-                                        <div class="input--select">
-                                            <label>Age Range <span>*</span></label>
-                                            <select id="raza2" name="raza2" class="age-range" value="{{old('raza2')}}" required>
-
-                                                @foreach ($valor as $key => $data)
-                                                <option value="{{ $data}}" {{ (old("raza2") == $data ? "selected":"") }}>{{ $data->nombre }}</option>
-                                                @endforeach
-                                            </select>
+                                      
 
                                             <div class="form-group">
                                                 <div class="col-lg-12">

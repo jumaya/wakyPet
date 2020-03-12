@@ -47,18 +47,11 @@
                         <a class="nav-link" href="{{ route('programacion') }}">
                             <i class="fa fa fa-male"></i>
                             Programa tu paseo </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('home') }}">
-                            <i class="fa fa fa-home"></i>
-                            Inicio </a>
-                    </li>
+                    </li>                    
                     @else
-                    <a class="navbar-brand" href="/">Wykipet</a>
+                    <a class="navbar-brand" href="/">Wakypet</a>
                     @endauth
                 </div>
-
-
 
                 <ul class="nav navbar-nav navbar-right">
 

@@ -22,6 +22,7 @@
                 <li>Generate 100 monthly reports</li>
               </ul>
               <div class="price-cta">
+                <img src="" alt="">
                 <strong class="price">Free</strong>
                 <p><a href="#" class="btn btn-white">Choose Plan</a></p>
               </div>

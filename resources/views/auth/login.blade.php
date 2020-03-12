@@ -52,8 +52,7 @@
                         </div>
 
     </form>
-    
-    <a href="{{ route('password.request') }}">Olvidaste tu contraseña?</a><br>                                    
+                                            
     <a href="{{ route('register') }}" class="text-center">Registrarse</a>
 
   </div>
