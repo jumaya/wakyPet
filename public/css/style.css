@@ -1,0 +1,28 @@
+@import url('bootstrap-material-design.min.css');
+@import url('ripples.min.css');
+
+.form-group input[type=file] {
+	opacity: 30 !important;
+	position: relative !important;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+	overflow: visible !important;
+}
+
+.classs .btn {
+	padding: 2px !important;
+	margin: 2px !important;		
+}
+
+.form-control {
+    margin-bottom: 0px !important; 
+}
+
+.form-inline .form-group {
+	vertical-align:baseline !important;
+}
+
+
+
+
